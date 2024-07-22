@@ -16,7 +16,8 @@ public class MenuItem
 }
 
 public class Menu
-{
+{ 
+
     private readonly List<MenuItem> _menuItems;
 
     public Menu(List<MenuItem> menuItems)
@@ -51,6 +52,7 @@ public class Menu
                 Console.WriteLine("Invalid selection. Please try again.");
                 Pause();
             }
+      
         }
     }
 
